@@ -1,0 +1,184 @@
+{
+  "apiVersion": "1.0",
+  "swaggerVersion": "1.2",
+  "basePath": "http://192.168.31.52:3000",
+  "resourcePath": "User Management",
+  "apis": [
+    {
+      "path": "/api/v1/users",
+      "operations": [
+        {
+          "summary": "Listing of users",
+          "parameters": [
+            {
+              "paramType": "header",
+              "name": "Authorization",
+              "type": "string",
+              "description": "Header Token",
+              "required": true
+            }
+          ],
+          "responseMessages": [
+            {
+              "code": 401,
+              "responseModel": null,
+              "message": "Unauthorized"
+            },
+            {
+              "code": 406,
+              "responseModel": null,
+              "message": "The request you made is not acceptable"
+            }
+          ],
+          "notes": "Authorization = Bearer {access_token}",
+          "nickname": "Api::V1::Users#index",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "path": "/api/v1/users/profile",
+      "operations": [
+        {
+          "summary": "Get profile",
+          "parameters": [
+            {
+              "paramType": "header",
+              "name": "Authorization",
+              "type": "string",
+              "description": "Header Token",
+              "required": true
+            }
+          ],
+          "responseMessages": [
+            {
+              "code": 401,
+              "responseModel": null,
+              "message": "Unauthorized"
+            },
+            {
+              "code": 406,
+              "responseModel": null,
+              "message": "The request you made is not acceptable"
+            }
+          ],
+          "notes": "Authorization = Bearer {access_token}",
+          "nickname": "Api::V1::Users#profile",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "path": "/api/v1/users/profile",
+      "operations": [
+        {
+          "summary": "Update profile",
+          "parameters": [
+            {
+              "paramType": "header",
+              "name": "Authorization",
+              "type": "string",
+              "description": "Header Token",
+              "required": true
+            },
+            {
+              "paramType": "form",
+              "name": "user[first_name]",
+              "type": "string",
+              "description": "First Name",
+              "required": false
+            },
+            {
+              "paramType": "form",
+              "name": "user[last_name]",
+              "type": "string",
+              "description": "Last Name",
+              "required": false
+            },
+            {
+              "paramType": "form",
+              "name": "user[avatar]",
+              "type": "string",
+              "description": "Upload image",
+              "required": false
+            },
+            {
+              "paramType": "form",
+              "name": "user[avatar_delete]",
+              "type": "boolean",
+              "description": "Delete image",
+              "required": false,
+              "defaultValue": "false"
+            }
+          ],
+          "responseMessages": [
+            {
+              "code": 401,
+              "responseModel": null,
+              "message": "Unauthorized"
+            },
+            {
+              "code": 406,
+              "responseModel": null,
+              "message": "The request you made is not acceptable"
+            }
+          ],
+          "notes": "Authorization = Bearer {access_token}",
+          "nickname": "Api::V1::Users#update",
+          "method": "put"
+        }
+      ]
+    },
+    {
+      "path": "/api/v1/users/change_status",
+      "operations": [
+        {
+          "summary": "Update user status",
+          "parameters": [
+            {
+              "paramType": "header",
+              "name": "Authorization",
+              "type": "string",
+              "description": "Header Token",
+              "required": true
+            },
+            {
+              "paramType": "form",
+              "name": "user[id][]",
+              "type": "array",
+              "description": "User id",
+              "required": true
+            },
+            {
+              "paramType": "form",
+              "name": "user[status]",
+              "type": "string",
+              "description": "User id",
+              "required": true,
+              "enum": [
+                "active",
+                "inactive"
+              ]
+            }
+          ],
+          "responseMessages": [
+            {
+              "code": 401,
+              "responseModel": null,
+              "message": "Unauthorized"
+            },
+            {
+              "code": 406,
+              "responseModel": null,
+              "message": "The request you made is not acceptable"
+            }
+          ],
+          "notes": "Authorization = Bearer {access_token}",
+          "nickname": "Api::V1::Users#change_status",
+          "method": "put"
+        }
+      ]
+    }
+  ],
+  "authorizations": null
+}
