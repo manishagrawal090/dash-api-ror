@@ -3,4 +3,3 @@
 require_relative 'config/environment'
 
 run Rails.application
-run proc{ [200, {},["hello"]] }
