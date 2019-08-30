@@ -24,8 +24,3 @@
 /log
 /.idea
 /public/system
-/config/database.yml
-
-/config/application.yml
-/config/local_env.yml
-/coverage

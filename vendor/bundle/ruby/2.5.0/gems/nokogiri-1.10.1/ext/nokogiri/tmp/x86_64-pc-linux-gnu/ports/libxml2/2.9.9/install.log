@@ -1,0 +1,34 @@
+make  install-recursive
+make[1]: Entering directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9'
+Making install in include
+make[2]: Entering directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9/include'
+Making install in libxml
+make[3]: Entering directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9/include/libxml'
+make[4]: Entering directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9/include/libxml'
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2/libxml'
+ /usr/bin/install -c -m 644 SAX.h entities.h encoding.h parser.h parserInternals.h xmlerror.h HTMLparser.h HTMLtree.h debugXML.h tree.h list.h hash.h xpath.h xpathInternals.h xpointer.h xinclude.h xmlIO.h xmlmemory.h nanohttp.h nanoftp.h uri.h valid.h xlink.h xmlversion.h DOCBparser.h catalog.h threads.h globals.h c14n.h xmlautomata.h xmlregexp.h xmlmodule.h xmlschemas.h schemasInternals.h xmlschemastypes.h xmlstring.h xmlunicode.h xmlreader.h relaxng.h dict.h '/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2/libxml'
+ /usr/bin/install -c -m 644 SAX2.h xmlexports.h xmlwriter.h chvalid.h pattern.h xmlsave.h schematron.h '/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/include/libxml2/libxml'
+make[4]: Leaving directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9/include/libxml'
+make[3]: Leaving directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9/include/libxml'
+make[3]: Entering directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9/include'
+make[4]: Entering directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9/include'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9/include'
+make[3]: Leaving directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9/include'
+make[2]: Leaving directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9/include'
+Making install in .
+make[2]: Entering directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9'
+make[3]: Entering directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9'
+ /bin/mkdir -p '/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libxml2.la '/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib'
+libtool: install: /usr/bin/install -c .libs/libxml2.lai /home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.la
+/usr/bin/install: target 'project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ports/x86_64-pc-linux-gnu/libxml2/2.9.9/lib/libxml2.la' is not a directory
+make[3]: *** [install-libLTLIBRARIES] Error 1
+make[3]: Leaving directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9'
+make[2]: *** [install-am] Error 2
+make[2]: Leaving directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9'
+make[1]: *** [install-recursive] Error 1
+make[1]: Leaving directory `/home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.9/libxml2-2.9.9'
+make: *** [install] Error 2
