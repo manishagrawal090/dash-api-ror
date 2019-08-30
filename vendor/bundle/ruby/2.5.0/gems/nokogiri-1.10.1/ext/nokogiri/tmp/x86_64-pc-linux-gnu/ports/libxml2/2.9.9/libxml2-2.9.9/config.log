@@ -1027,7 +1027,7 @@ configure:14921: $? = 0
 configure:14921: result: yes
 configure:15238: checking for shl_load
 configure:15238: gcc -o conftest -fPIC    conftest.c  >&5
-/tmp/ccaZEfdy.o: In function `main':
+/tmp/cc0nqfR7.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `shl_load'
 collect2: error: ld returned 1 exit status
 configure:15238: $? = 1
@@ -1249,7 +1249,7 @@ configure: failed program was:
 configure:15277: result: no
 configure:15285: checking for dlopen
 configure:15285: gcc -o conftest -fPIC    conftest.c  >&5
-/tmp/ccf4n2ID.o: In function `main':
+/tmp/ccH2cFAe.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:15285: $? = 1

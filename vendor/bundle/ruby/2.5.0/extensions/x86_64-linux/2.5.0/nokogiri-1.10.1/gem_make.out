@@ -1,5 +1,5 @@
 current directory: /home/agile/angular project/angular-dash-api/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.1/ext/nokogiri
-/home/agile/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20190830-4828-umulqc.rb extconf.rb
+/home/agile/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20190830-19294-11hydbn.rb extconf.rb
 checking if the C compiler accepts ... yes
 Building nokogiri using packaged libraries.
 Using mini_portile version 2.4.0

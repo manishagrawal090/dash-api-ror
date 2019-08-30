@@ -30,9 +30,6 @@ gem 'swagger-docs'
 gem "paperclip", "~> 6.0.0"
 gem "rolify"
 
- gem 'rails_12factor', group: :production
-
-
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors', require: 'rack/cors'
 
